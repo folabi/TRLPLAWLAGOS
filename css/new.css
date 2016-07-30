@@ -1,0 +1,29 @@
+
+/*=========================================================================
+ CONTENT
+========================================================================= */
+
+.checked { float: left; margin-right: 18px; margin-top: 5px; }
+
+.text-p1 { border-left: 3px solid #AA4E33; font-size: 23px; line-height: 30px; margin-top: 53px; padding-left: 20px; }
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ .text-p1 {
+ border-left: 3px solid #AA4E33;
+ margin-top: 21px;
+ padding-left: 10px;
+}
+}
+@media only screen and (max-width: 767px) {
+ .text-p1 {
+ border-left: 0 solid #AA4E33;
+ margin-top: 0;
+ padding-left: 0;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ .text-p1 {
+ border-left: 0 solid #AA4E33;
+ margin-top: 0;
+ padding-left: 0;
+}
+}
